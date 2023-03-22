@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}	
+/* General styles*/
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+
+body{
+    background-color:#f5f4f4; 
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+main{
+    padding: 50px;
+}
+h1{
+    padding-left: 10px;
+    font-size: 5rem;
+    font-weight: 100;
+    color: pink;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+
+}
+p{
+    margin-left: 1.5rem;
+}
+/*index*/
+.w-100{
+    height: 470px;
+}
+h2{
+    padding-left: 15px;
+    font-size: 2.5rem;
+    font-weight: 50;
+    color: pink
+}
+.contenedor-index{
+    display: flex;
+    justify-content: flex-end;
+}
+/*novedades*/
+.video-container2{
+    display: grid;
+    grid-template-rows:  repeat(2,1fr);
+    grid-row-gap: 1fr;
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+iframe{
+    height: 300px;
+    width: 483px;
+}
+.novedades{
+    margin-top: -10%;
+    padding: 10px;
+    display: flex;
+}
+.article-container{
+    padding: 30px;
+}
+ /*¿que hacemos?*/
+
+.container-img{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.column img{
+    margin-top: 10px;
+}
+/*contacto*/
+
+form{
+    height: 100px;
+    width: 50%;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and (max-width:576px){
+
+    .video-container{
+        flex-direction: column;
+    }
+    iframe{
+        width: 520px;
+        height: 300px;
+    }
+
+}

@@ -53,20 +53,19 @@ p{
 .w-100{
     height: 470px;
 }
+
 h2{
     padding-left: 15px;
     font-size: 2.5rem;
     font-weight: 50;
     color: pink
 }
-.video-index{
+
+.contenedor-index aside {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 50px;
 }
-.contenedor-index {
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
     
 /*novedades*/
 .video-container2{
@@ -93,16 +92,7 @@ iframe{
 .article-container{
     padding: 30px;
 }
- /*¿que hacemos?*/
 
-.container-img{
-    display: flex;
-    padding: 5px;
-    margin: 5px;
-}
-.column img{
-    margin-top: 10px;
-}
 /*contacto*/
 
 form{
@@ -163,6 +153,8 @@ justify-content: left;}
 .traje-baño img{
     padding: 20px;
 }
+
+
 
 /*media queries*/
 @media only screen and (max-width:768px){

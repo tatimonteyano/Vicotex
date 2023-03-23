@@ -69,13 +69,9 @@ h2{
     
 /*novedades*/
 .video-container2{
-    display: grid;
-    grid-template-rows:  repeat(2,1fr);
-    grid-row-gap: 2fr;
-    height: 500px;
-    width: 500px;
-    margin-top: 40px;
-    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
 }
 .video-container2 video{
     margin-top: 100px;

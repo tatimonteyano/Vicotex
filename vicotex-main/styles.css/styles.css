@@ -170,52 +170,55 @@ justify-content: left;}
 }
 
 @media only screen and (max-width:576px){
-
     /*estilos gral.*/
 h1 {
-        padding-left: 10px;
-        font-weight: 100;
-        color: pink;
-        font-size: 50px;
-       }
-           
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 20px;
-}
-}
- footer {
-    flex-wrap: wrap;
-    padding-top: 200px;
-}
+    padding-left: 10px;
+    font-weight: 100;
+    color: pink;
+    font-size: 50px;
+   }
        
-    /*index*/
+p {
+margin-top: 0;
+margin-bottom: 1rem;
+font-size: 20px;
+}
+
+footer {
+flex-wrap: wrap;
+padding-top: 200px;
+}
+   
+/*index*/
 
 iframe{
-    width: 400px;
-    height: 300px;
-    margin-bottom: 30px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
+width: 400px;
+height: 300px;
+margin-bottom: 30px;
+padding: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;   
 }
 
 /*Que hacemos*/
 
 .imagenes-contenedor{
-    flex-direction: column;
+flex-direction: column;
 }
 .fajas{
-    flex-direction: column;
+flex-direction: column;
 }
 .deportivo{
-    flex-direction: column;
+flex-direction: column;
 }
 .lenceria{
-    flex-direction: column;
+flex-direction: column;
 }
 .traje-baño{
-    flex-direction: column;
+flex-direction: column;
 }
+
+}
+
+    

@@ -1,18 +1,18 @@
 .imagenes-contenedor .lenceria img{
-    width: 300px;
-    height: 300px;
+    width: $image-contenedor;
+    height: $image-contenedor;
 }
 .imagenes-contenedor .deportivo img{
-    width: 300px;
-    height: 300px;
+    width: $image-contenedor;
+    height: $image-contenedor;
 }
 .imagenes-contenedor .fajas img{  
-    width: 300px;
-    height: 300px;
+    width: $image-contenedor;
+    height: $image-contenedor;
 }
 .imagenes-contenedor .traje-baño img{
-    width: 300px;
-    height: 300px; 
+    width: $image-contenedor;
+    height: $image-contenedor; 
 }
 
 .lenceria{
@@ -37,14 +37,14 @@ justify-content: left;}
 }
 
 .fajas img{
-    padding: 20px;
+    padding: $image;
 }
 .deportivo img{
-    padding: 20px;
+    padding: $image;
 }
 .lenceria img{
-    padding: 20px;
+    padding: $image;
 }
 .traje-baño img{
-    padding: 20px;
+    padding: $image;
 }

@@ -1,3 +1,4 @@
+
 .video-container2{
     display: flex;
     justify-content: space-between;
@@ -7,8 +8,9 @@
     margin-top: 100px;
 }
 iframe{
-    height: 300px;
-    width: 483px;
+    @mixin sizes ( $width,$height){
+        @include sizes(483px,300px )
+    }
 }
 .novedades{
     margin-top: -10%;

@@ -14,9 +14,6 @@
 	border: 0;
 }	
 /*variables*/
-$image: 20px;
-$image-contenedor: 300px;
-
 /* General styles*/
 
 body{
@@ -70,64 +67,64 @@ footer{
     padding-top: 300px;
 }
 
-/*index*/    
-/*novedades*/
-/*contacto*/
-/*que hacemos?*/
-
 /*media queries*/
 @media only screen and (max-width:768px){
 
 }
 @media only screen and (max-width:576px){
     /*estilos gral.*/
-h1 {
-    padding-left: 10px;
-    font-weight: 100;
-    color: pink;
-    font-size: 50px;
-   }
-       
-p {
-margin-top: 0;
-margin-bottom: 1rem;
-font-size: 20px;
-}
 
-footer {
-flex-wrap: wrap;
-padding-top: 300px;
-}
+ main{
+    h1 {
+        padding-left: 10px;
+        font-weight: 60;
+        color: pink;
+        font-size: 1rem;
+       }
+    }
+
+ p {
+     margin-top: 0;
+     margin-bottom: 0.5rem;
+     font-size: 10px;
+    }
    
-/*index*/
+ footer {
+     flex-wrap: wrap;
+     padding-top: 300px;
+    }
+   
+ /*index*/
 
-iframe{
-width: 400px;
-height: 300px;
-margin-bottom: 30px;
-padding: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;   
-}
+ .contenedor-index{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+    iframe{
+     width: 200px;
+     height: 100px;
+     margin-bottom: 30px;
+     padding: 50px;  
+    }
+  }
 
-/*Que hacemos*/
+ /*Que hacemos*/
 
-.imagenes-contenedor{
-flex-direction: column;
-}
-.fajas{
-flex-direction: column;
-}
-.deportivo{
-flex-direction: column;
-}
-.lenceria{
-flex-direction: column;
-}
-.traje-baño{
-flex-direction: column;
-}
+ .imagenes-contenedor{
+ flex-direction: column;
+ }
+ .fajas{
+ flex-direction: column;
+ }
+ .deportivo{
+ flex-direction: column;
+ }
+ .lenceria{
+ flex-direction: column;
+ }
+ .traje-baño{
+ flex-direction: column;
+ }
 
 }
 

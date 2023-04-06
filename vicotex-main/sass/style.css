@@ -23,8 +23,8 @@ h1 {
 }
 
 form {
-  height: 100px;
   width: 100%;
+  height: 100px;
   padding-left: 20px;
   margin-top: 50px;
 }
@@ -42,11 +42,6 @@ form {
 
 .video-container2 video {
   margin-top: 100px;
-}
-
-iframe {
-  height: 300px;
-  width: 483px;
 }
 
 .novedades {
@@ -178,37 +173,35 @@ footer {
   padding-top: 300px;
 }
 
-/*index*/
-/*novedades*/
-/*contacto*/
-/*que hacemos?*/
 /*media queries*/
 @media only screen and (max-width: 576px) {
   /*estilos gral.*/
-  h1 {
+  main h1 {
     padding-left: 10px;
-    font-weight: 100;
+    font-weight: 60;
     color: pink;
-    font-size: 50px;
+    font-size: 1rem;
   }
   p {
     margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 20px;
+    margin-bottom: 0.5rem;
+    font-size: 10px;
   }
   footer {
     flex-wrap: wrap;
     padding-top: 300px;
   }
   /*index*/
-  iframe {
-    width: 400px;
-    height: 300px;
+  .contenedor-index {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .contenedor-index iframe {
+    width: 200px;
+    height: 100px;
     margin-bottom: 30px;
     padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   /*Que hacemos*/
   .imagenes-contenedor {

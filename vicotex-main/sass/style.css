@@ -36,24 +36,18 @@ form {
 
 .video-container2 {
   display: flex;
-  justify-content: space-between;
-  padding: 70px;
-}
-
-.video-container2 img {
-  width: 600px;
-  height: 400px;
-}
-
-.video-container2 .video iframe {
-  width: 600px;
-  height: 400px;
+  flex-direction: column;
+  padding: 50px;
 }
 
 .novedades {
   margin-top: -10%;
   padding: 10px;
   display: flex;
+}
+
+.article-container {
+  padding: 30px;
 }
 
 .imagenes-contenedor .lenceria img {
@@ -124,6 +118,7 @@ form {
   border: 0;
 }
 
+/*variables*/
 /* General styles*/
 body {
   background-color: #f5f4f4;
@@ -172,6 +167,13 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 300px;
+}
+
+/*novedades*/
+.video-container2 img {
+  justify-content: center;
+  height: 400px;
+  width: 400px;
 }
 
 /*media queries*/
@@ -252,18 +254,6 @@ footer {
   /*NOVEDADES*/
   .video-container2 {
     display: block;
-  }
-  .video-container2 aside iframe {
-    width: 200px;
-    height: 250px;
-    margin-bottom: 30px;
-    padding: 50px;
-  }
-  .video-container2 img {
-    width: 100%;
-    height: 250px;
-    margin-bottom: 30px;
-    padding: 50px;
   }
   /*Que hacemos*/
   .imagenes-contenedor {

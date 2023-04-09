@@ -192,17 +192,18 @@ footer {
     padding-top: 300px;
   }
   /*index*/
-  .contenedor-index {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-  .contenedor-index iframe {
+  
+  iframe{
     width: 200px;
     height: 100px;
     margin-bottom: 30px;
-    padding: 50px;
+    padding: 25px;
   }
+  /*NOVEDADES*/
+  .video-container2{
+    display: block;
+   }
+   
   /*Que hacemos*/
   .imagenes-contenedor {
     flex-direction: column;

@@ -1,15 +1,14 @@
 
 .video-container2{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
+  display: flex;
+  flex-direction: column;   
+  padding: 50px;
 }
-.video-container2 video{
-    margin-top: 100px;
-}
+
 iframe{
-    @mixin sizes ( $width,$height){
-        @include sizes(483px,300px )
+    @mixin sizes ($width, $height)
+    {
+        @include sizes(483px,400px);
     }
 }
 .novedades{

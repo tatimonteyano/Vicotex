@@ -1,0 +1,31 @@
+@mixin sizes ($width, $height){
+    width:$width;
+    height:$height;
+}
+
+.video-container2{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+
+}
+.video-container2{
+    img{
+        @include sizes(600px,400px);  
+    }
+}
+.video-container2{
+    .video{
+        iframe{
+            @include sizes(600px,400px);     
+        }
+    }
+}
+
+            
+.novedades{
+    margin-top: -10%;
+    padding: 10px;
+    display: flex;
+}
+

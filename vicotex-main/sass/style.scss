@@ -13,7 +13,6 @@
 	padding: 0;
 	border: 0;
 }	
-/*variables*/
 /* General styles*/
 
 body{
@@ -69,10 +68,68 @@ footer{
 
 /*media queries*/
 @media only screen and (max-width:768px){
+    main{
+        h1 {
+          padding-left: 10px;
+          font-weight: 60;
+          color: pink;
+          font-size: 2rem;
+         }
+      }
+  
+      p {
+       margin-top: 0;
+       margin-bottom: 0.5rem;
+       font-size: 10px;
+      }
+  
+      aside{
+        iframe {
+          width: 100%;
+          height: 400px;
+          margin-bottom: 30px;
+          padding: 50px;  
+         }
+      }
+     
+      footer {
+       flex-wrap: wrap;
+       padding-top: 200px;
+      }
+     
+   /*index*/
+      .contenedor-index{
+          aside{
+            display: block
+          }
+      }
+  
+   /*NOVEDADES*/
+      .video-container2{
+       display: block;
+      }
+  
+   /*Que hacemos*/
+  
+   .imagenes-contenedor{
+      box-sizing: border-box;
+       .fajas{
+        flex-direction: column;
+      }
+      .deportivo{
+      flex-direction: column;
+      }
+      .lenceria{
+      flex-direction: column;
+      }
+      .traje-baño{
+      flex-direction: column;
+      }
+   }
 }
 
 @media only screen and (max-width:576px){
-      /*estilos gral.*/
+    /*estilos gral.*/
     main{
       h1 {
         padding-left: 10px;
@@ -110,26 +167,43 @@ footer{
     }
 
  /*NOVEDADES*/
+ .video-container2{
+   display: block;
+    aside{
+      iframe {
+          width: 200px;
+          height: 250px;
+          margin-bottom: 30px;
+          padding: 50px;  
+         }
+      }
+    }
     .video-container2{
-     display: block;
+        img{
+            width: 100%;
+            height: 250px;
+            margin-bottom: 30px;
+            padding: 50px; 
+        }
     }
 
  /*Que hacemos*/
 
  .imagenes-contenedor{
- flex-direction: column;
+    box-sizing: border-box;
+     .fajas{
+      flex-direction: column;
+    }
+    .deportivo{
+    flex-direction: column;
+    }
+    .lenceria{
+    flex-direction: column;
+    }
+    .traje-baño{
+    flex-direction: column;
+    }
  }
- .fajas{
- flex-direction: column;
- }
- .deportivo{
- flex-direction: column;
- }
- .lenceria{
- flex-direction: column;
- }
- .traje-baño{
- flex-direction: column;
- }
+
 }
 

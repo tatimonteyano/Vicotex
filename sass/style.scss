@@ -94,7 +94,6 @@ footer{
      
       footer {
        flex-wrap: wrap;
-       padding-top: 200px;
       }
      
    /*index*/
@@ -154,13 +153,17 @@ footer{
        }
     }
 
-    footer {
-       display: flex;
-       flex-direction: column-reverse;
-       padding-top: 100px;
-       padding-left: 70px;
+   footer {
+     display: flex;
+      flex-direction: column-reverse;
+      padding-top: -100px;
+      padding-left: 70px;
+  }
+  footer{
+    p{
+      font-size: 1rem;
     }
-
+  }
  /*index*/
     .contenedor-index{
         aside{

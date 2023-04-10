@@ -41,12 +41,12 @@ form {
 }
 
 .video-container2 img {
-  width: 600px;
+  width: 500px;
   height: 400px;
 }
 
 .video-container2 .video iframe {
-  width: 600px;
+  width: 500px;
   height: 400px;
 }
 
@@ -234,12 +234,6 @@ footer {
     margin-bottom: 0.5rem;
     font-size: 10px;
   }
-  aside iframe {
-    width: 100%;
-    height: 250px;
-    margin-bottom: 30px;
-    padding: 50px;
-  }
   footer {
     display: flex;
     flex-direction: column-reverse;
@@ -264,8 +258,6 @@ footer {
     padding: 50px;
   }
   .video-container2 img {
-    width: 100%;
-    height: 250px;
     margin-bottom: 30px;
     padding: 50px;
   }

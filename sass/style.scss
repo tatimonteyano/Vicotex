@@ -153,12 +153,14 @@ footer{
         padding: 50px;  
        }
     }
-   
+
     footer {
-     flex-wrap: wrap;
-     padding-top: 200px;
+       display: flex;
+       flex-direction: column-reverse;
+       padding-top: 100px;
+       padding-left: 70px;
     }
-   
+
  /*index*/
     .contenedor-index{
         aside{

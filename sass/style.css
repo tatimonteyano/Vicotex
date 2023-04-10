@@ -191,7 +191,7 @@ footer {
     width: 100%;
     height: 400px;
     margin-bottom: 30px;
-  
+    padding: 50px;
   }
   footer {
     flex-wrap: wrap;
@@ -253,11 +253,11 @@ footer {
   }
   .video-container2 aside iframe {
     margin-bottom: 30px;
-  
+    padding: 30px;
   }
   .video-container2 img {
     margin-bottom: 30px;
-
+    padding: 30px;
   }
   /*Que hacemos*/
   .imagenes-contenedor {

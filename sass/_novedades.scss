@@ -11,17 +11,16 @@
 }
 .video-container2{
     img{
-        @include sizes(500px,400px);  
+        @include sizes(450px,300px);  
     }
 }
 .video-container2{
     .video{
         iframe{
-            @include sizes(500px,400px);     
+            @include sizes(450px,300px);     
         }
     }
-}
-           
+}          
 .novedades{
     margin-top: -10%;
     padding: 10px;

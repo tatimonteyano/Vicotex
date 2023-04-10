@@ -41,13 +41,13 @@ form {
 }
 
 .video-container2 img {
-  width: 500px;
-  height: 400px;
+  width: 450px;
+  height: 300px;
 }
 
 .video-container2 .video iframe {
-  width: 500px;
-  height: 400px;
+  width: 450px;
+  height: 300px;
 }
 
 .novedades {
@@ -191,7 +191,7 @@ footer {
     width: 100%;
     height: 400px;
     margin-bottom: 30px;
-    padding: 50px;
+  
   }
   footer {
     flex-wrap: wrap;
@@ -252,14 +252,12 @@ footer {
     display: block;
   }
   .video-container2 aside iframe {
-    width: 200px;
-    height: 250px;
     margin-bottom: 30px;
-    padding: 50px;
+  
   }
   .video-container2 img {
     margin-bottom: 30px;
-    padding: 50px;
+
   }
   /*Que hacemos*/
   .imagenes-contenedor {
